@@ -4,6 +4,11 @@ class Song
   
   def initialize(name)
     @name = name 
+    save
+  end 
+  
+  def save
+    @@all
   end 
   
   def Songs 
