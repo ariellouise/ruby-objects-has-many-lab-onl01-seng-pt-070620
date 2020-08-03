@@ -18,4 +18,6 @@ class Song
   def Songs 
     @@all 
   end 
+  
+  def artist
 end 
