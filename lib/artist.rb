@@ -1,11 +1,11 @@
 class Artist 
   attr_accessor :name 
   
-  def initialize(name)
+  def initialize(name) #initialize
     @name = name 
   end 
   
-  def songs 
+  def songs #has many 
     Song.all.select {|song| song.artist == self }
   end 
   
