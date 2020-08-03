@@ -2,7 +2,7 @@ class Song
   attr_accessor :name, :artist 
   @@all = []
   
-  def songs 
+  def Songs 
     @@all 
   end 
 end 
