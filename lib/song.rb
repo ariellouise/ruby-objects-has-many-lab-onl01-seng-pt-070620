@@ -19,5 +19,6 @@ class Song
     @@all 
   end 
   
-  def artist
+  def artist_name 
+    if artist 
 end 
